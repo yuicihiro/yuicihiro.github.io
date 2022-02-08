@@ -20,7 +20,7 @@
  for(var i=0;i<vmsize;i++) {
      var v = Math.floor(Math.random()*vmsize);
      pagetable[i] = v;
-     pagetableString += v.toString(16) +"\n";
+     pagetableString += v.toString(20) +"\n";
  }
 
  function draw() {
